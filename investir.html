@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Investissement VIP</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .header {
+            background-color: #ff5733;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .container {
+            width: 90%;
+            max-width: 600px;
+            margin: 20px auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .vip-level {
+            background-color: #ffd700;
+            color: #333;
+            text-align: center;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            font-size: 18px;
+            font-weight: bold;
+        }
+        .investment-section {
+            margin-bottom: 20px;
+        }
+        .investment-level {
+            background-color: #ff5733;
+            color: white;
+            padding: 15px;
+            margin: 10px 0;
+            text-align: center;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            position: relative;
+        }
+        .investment-level:hover {
+            background-color: #e04c2f;
+        }
+        .coming-soon {
+            background-color: #ccc;
+            color: #666;
+            padding: 15px;
+            margin: 10px 0;
+            text-align: center;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: not-allowed;
+        }
+        .details {
+            font-size: 14px;
+            color: #333;
+            margin-bottom: 10px;
+        }
+        .invest-button {
+            background-color: #333;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-size: 14px;
+            cursor: pointer;
+            text-align: center;
+        }
+        .invest-button:hover {
+            background-color: #555;
+        }
+        .invest-button:active {
+            background-color: #777;
+        }
+    </style>
+    <script>
+        function investir() {
+            alert("Solde insuffisant pour activer le niveau");
+        }
+    </script>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Titre de la page -->
+        <div class="header">
+            Investissement VIP
+        </div>
+
+        <!-- Niveaux d'investissement disponibles -->
+        <div class="investment-section">
+            <div class="vip-level">Niveau d'investissement 7 500 FCFA - VIP 1</div>
+            <div class="investment-level">
+                <div class="details">Revenus quotidiens : 500 FCFA</div>
+                <div class="details">Cycle : 90 jours</div>
+                <div class="details">Revenus totaux : 45 000 FCFA</div>
+                <div class="invest-button" onclick="investir()">Investir</div>
+            </div>
+
+            <div class="vip-level">Niveau d'investissement 15 000 FCFA - VIP 2</div>
+            <div class="investment-level">
+                <div class="details">Revenus quotidiens : 1 000 FCFA</div>
+                <div class="details">Cycle : 90 jours</div>
+                <div class="details">Revenus totaux : 90 000 FCFA</div>
+                <div class="invest-button" onclick="investir()">Investir</div>
+            </div>
+
+            <div class="vip-level">Niveau d'investissement 30 000 FCFA - VIP 3</div>
+            <div class="investment-level">
+                <div class="details">Revenus quotidiens : 2 000 FCFA</div>
+                <div class="details">Cycle : 90 jours</div>
+                <div class="details">Revenus totaux : 180 000 FCFA</div>
+                <div class="invest-button" onclick="investir()">Investir</div>
+            </div>
+
+            <div class="vip-level">Niveau d'investissement 60 000 FCFA - VIP 4</div>
+            <div class="investment-level">
+                <div class="details">Revenus quotidiens : 4 000 FCFA</div>
+                <div class="details">Cycle : 90 jours</div>
+                <div class="details">Revenus totaux : 360 000 FCFA</div>
+                <div class="invest-button" onclick="investir()">Investir</div>
+            </div>
+
+            <div class="vip-level">Niveau d'investissement 120 000 FCFA - VIP 5</div>
+            <div class="investment-level">
+                <div class="details">Revenus quotidiens : 8 000 FCFA</div>
+                <div class="details">Cycle : 90 jours</div>
+                <div class="details">Revenus totaux : 720 000 FCFA</div>
+                <div class="invest-button" onclick="investir()">Investir</div>
+            </div>
+
+            <div class="vip-level">Niveau d'investissement 240 000 FCFA - VIP 6</div>
+            <div class="investment-level">
+                <div class="details">Revenus quotidiens : 16 000 FCFA</div>
+                <div class="details">Cycle : 90 jours</div>
+                <div class="details">Revenus totaux : 1 440 000 FCFA</div>
+                <div class="invest-button" onclick="investir()">Investir</div>
+            </div>
+
+            <div class="vip-level">Niveau d'investissement 480 000 FCFA - VIP 7</div>
+            <div class="investment-level">
+                <div class="details">Revenus quotidiens : 32 000 FCFA</div>
+                <div class="details">Cycle : 90 jours</div>
+                <div class="details">Revenus totaux : 2 880 000 FCFA</div>
+                <div class="invest-button" onclick="investir()">Investir</div>
+            </div>
+
+            <div class="vip-level">Niveau d'investissement 960 000 FCFA - VIP 8</div>
+            <div class="investment-level">
+                <div class="details">Revenus quotidiens : 64 000 FCFA</div>
+                <div class="details">Cycle : 90 jours</div>
+                <div class="details">Revenus totaux : 5 760 000 FCFA</div>
+                <div class="invest-button" onclick="investir()">Investir</div>
+            </div>
+
+            <div class="vip-level">Niveau d'investissement 1 920 000 FCFA - VIP 9</div>
+            <div class="investment-level">
+                <div class="details">Revenus quotidiens : 128 000 FCFA</div>
+                <div class="details">Cycle : 90 jours</div>
+                <div class="details">Revenus totaux : 11 520 000 FCFA</div>
+                <div class="invest-button" onclick="investir()">Investir</div>
+            </div>
+
+            <div class="vip-level">Niveau d'investissement 3 840 000 FCFA - VIP 10</div>
+            <div class="investment-level">
+                <div class="details">Revenus quotidiens : 256 000 FCFA</div>
+                <div class="details">Cycle : 90 jours</div>
+                <div class="details">Revenus totaux : 23 040 000 FCFA</div>
+                <div class="invest-button" onclick="investir()">Investir</div>
+            </div>
+        </div>
+
+        <!-- Niveaux d'investissement bientôt disponibles -->
+        <div class="investment-section">
+            <div class="vip-level">VIP 11 à 15 - Disponible bientôt</div>
+            <div class="coming-soon">VIP 11 - Revenus : Bientôt disponible</div>
+            <div class="coming-soon">VIP 12 - Revenus : Bientôt disponible</div>
+            <div class="coming-soon">VIP 13 - Revenus : Bientôt disponible</div>
+            <div class="coming-soon">VIP 14 - Revenus : Bientôt disponible</div>
+            <div class="coming-soon">
+            <div class="coming-soon">VIP 15 - Revenus : Bientôt disponible</div>
+        </div>
+    </div>
+
+</body>
+</html>
